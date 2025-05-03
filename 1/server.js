@@ -13,9 +13,9 @@ app.get('/', async (req, res) => {
 
 const numberTypes = new Map([
     ['p', 'primes'],
-    ['f', 'fibonacci'],
+    ['f', 'fibo'],
     ['e', 'even'],
-    ['r', 'random']
+    ['r', 'rand']
 ]);
 
 app.get('/numbers/:Id', async (req, res) => {
